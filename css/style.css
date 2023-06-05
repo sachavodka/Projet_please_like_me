@@ -1,10 +1,57 @@
-h1{
-    text-align: center;
+body {
+    background-color: rgb(160, 197, 231);
 }
 
+h1 {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3.2rem;
+}
 
-.card-img-top{
+.card {
+    width: 18rem;
+    border-radius: 18px;
+}
+
+p.card-text{
+    color: rgb(77, 73, 73);
+}
+
+.card-img-top {
     width: 180px;
     height: 250px;
+    margin: 10px auto;
+}
+
+.date_sortie{
+
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.2rem;
+    color: rgb(77, 73, 73);
+
+}
+
+.btn{
+    width: 210px;
     margin: auto;
+}
+
+.btn:hover{
+    background-color: rgb(77, 73, 73);
+    color: white;
+}
+
+.btn:hover span{
+    color: white;
+}
+
+.btn img{
+    width :30px;
+}
+
+.btn span{
+    margin-left: 30px; 
+    vertical-align: middle;
+    color: rgb(77, 73, 73);
 }
